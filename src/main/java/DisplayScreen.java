@@ -13,6 +13,11 @@ public class DisplayScreen {
         screen_width = width;
         initializeScreen(pixel);
     }
+    public DisplayScreen(int width, int height, char[][] pixel){
+        screen_height = height;
+        screen_width = width;
+        pixel_value = pixel;
+    }
 
     private void initializeScreen(char pixel) {
         pixel_value = new char[screen_width][screen_height];
