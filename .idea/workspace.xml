@@ -1,57 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="997121b7-ce4a-41c6-a098-02e0a8c7e609" name="Default Changelist" comment="" />
+    <list default="true" id="3aba3ddc-974e-4902-9319-a0b44bb7e922" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Block.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DisplayScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="ProjectId" id="1aA9BHFi90L7meziG9Ru2IVvFYn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectId" id="1a4zCyL4xdvF3Zm7FSgH122Y3l8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.checkIntSum">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sudoku_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.RainardHuman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.RainardHuman" />
+      <option name="MAIN_CLASS_NAME" value="com.github.RainardHuman.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.checkIntSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sudoku_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.RainardHuman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.RainardHuman" />
+      <option name="MAIN_CLASS_NAME" value="com.github.RainardHuman.AppTest" />
+      <option name="METHOD_NAME" value="checkIntSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sudoku_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.RainardHuman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.RainardHuman" />
+      <option name="MAIN_CLASS_NAME" value="com.github.RainardHuman.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.AppTest.checkIntSum" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -60,55 +104,43 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="997121b7-ce4a-41c6-a098-02e0a8c7e609" name="Default Changelist" comment="" />
-      <created>1586009530966</created>
+      <changelist id="3aba3ddc-974e-4902-9319-a0b44bb7e922" name="Default Changelist" comment="" />
+      <created>1586167395330</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586009530966</updated>
-      <workItem from="1586009533151" duration="16920000" />
-      <workItem from="1586009533151" duration="7021000" />
+      <updated>1586167395330</updated>
+      <workItem from="1586167408299" duration="1905000" />
+      <workItem from="1586276798482" duration="177000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="406" key="#Project_Structure" timestamp="1586009586403">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1586168468995">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="878" y="406" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1586009586403" />
-    <state x="1051" y="402" key="#com.intellij.ide.util.MemberChooser" timestamp="1586022106167">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1586168468995" />
+    <state width="1874" height="436" key="GridCell.Tab.0.bottom" timestamp="1586169320218">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1051" y="402" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1586022106167" />
-    <state width="2517" height="399" key="GridCell.Tab.0.bottom" timestamp="1586074734538">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1874" height="436" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1586169320218" />
+    <state width="1874" height="436" key="GridCell.Tab.0.center" timestamp="1586169320218">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586074734538" />
-    <state width="2517" height="399" key="GridCell.Tab.0.center" timestamp="1586074734538">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1874" height="436" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1586169320218" />
+    <state width="1874" height="436" key="GridCell.Tab.0.left" timestamp="1586169320218">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586074734538" />
-    <state width="2517" height="399" key="GridCell.Tab.0.left" timestamp="1586074734538">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1874" height="436" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1586169320218" />
+    <state width="1874" height="436" key="GridCell.Tab.0.right" timestamp="1586169320218">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586074734538" />
-    <state width="2517" height="399" key="GridCell.Tab.0.right" timestamp="1586074734538">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1874" height="436" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1586169320218" />
+    <state x="626" y="398" key="com.intellij.ide.util.TipDialog" timestamp="1586167419023">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586074734538" />
-    <state x="782" y="343" key="SettingsEditor" timestamp="1586026568588">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="782" y="343" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1586026568588" />
-    <state x="977" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1586166900077">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="977" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586166900077" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1586020708324">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1586020708324" />
+    <state x="626" y="398" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1586167419023" />
   </component>
 </project>
