@@ -11,6 +11,6 @@ public interface SudokuApi {
     @GET("hint/{puzzleInDotted}")
     Call<String> getHintForGame(@Path("puzzleInDotted") String puzzleInDotted);
 
-    @GET("solved/{puzzleInDotted}")
+    @GET("solve/{puzzleInDotted}")
     Call<String> getSolvedGame(@Path("puzzleInDotted") String puzzleInDotted);
 }

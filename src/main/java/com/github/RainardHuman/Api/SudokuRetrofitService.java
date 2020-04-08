@@ -19,25 +19,59 @@ public class SudokuRetrofitService {
         sudokuApi = retrofit.create(SudokuApi.class);
     }
 
-    public String getNewGame() {
-        return executeCall(sudokuApi.getNewGame());
+    public int[][] getNewGame() {
+        return transformStringToGame(executeCall(sudokuApi.getNewGame()));
     }
 
-    public String getHintForCurrentGame(String gameInDotted) {
-        return executeCall(sudokuApi.getHintForGame(gameInDotted));
+    public int[][] getHintForCurrentGame(int[][] game) {
+        return transformStringToGame(executeCall(sudokuApi.getHintForGame(transformGameToString(game))));
     }
 
-    public String getSolvedPuzzleForCurrentGame(String gameInDotted) {
-        return executeCall(sudokuApi.getSolvedGame(gameInDotted));
+    public int[][] getSolvedPuzzleForCurrentGame(int[][] game) {
+        return transformStringToGame(executeCall(sudokuApi.getSolvedGame(transformGameToString(game))));
     }
 
     public String executeCall(Call<String> stringCall) {
         try {
-            Response<String> stringResponse = stringCall.execute(); // execute the call to the web API
-            return stringResponse.body(); // gets the response from the web API's body.
+            Response<String> stringResponse = stringCall.execute();
+            return stringResponse.body();
         } catch (IOException e) {
             e.printStackTrace();
         }
         return null;
+    }
+
+    private int[][] transformStringToGame(String dottedBoard) {
+        int[][] game = new int[9][9];
+        int countX = 0;
+        int countY = 0;
+
+        for (char value : dottedBoard.toCharArray()) {
+            if (countY == 9) {
+                countX++;
+                countY = 0;
+            }
+            if(value == '.') {
+                game[countY][countX] = 0;
+            } else {
+                game[countY][countX] = (int)value - 48;
+            }
+            countY++;
+        }
+        return game;
+    }
+
+    private String transformGameToString(int[][] board) {
+        StringBuilder dottedBoard = new StringBuilder();
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (board[j][i] == 0) {
+                    dottedBoard.append(".");
+                } else {
+                    dottedBoard.append(board[j][i]);
+                }
+            }
+        }
+        return dottedBoard.toString();
     }
 }

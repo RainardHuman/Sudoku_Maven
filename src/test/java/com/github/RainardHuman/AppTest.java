@@ -7,13 +7,27 @@ import com.github.RainardHuman.Game.Block;
 import com.github.RainardHuman.Game.DisplayScreen;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 public class AppTest 
 {
     @Test
     public void checkIntSum()
     {
         SudokuRetrofitService sudokuRetrofitService = new SudokuRetrofitService();
-        System.out.println(sudokuRetrofitService.getNewGame());
+
+        int[][] game = sudokuRetrofitService.getNewGame();
+        System.out.println("New Game");
+        System.out.println(Arrays.deepToString(game).replace("], ", "]\n").replace("[[", "[").replace("]]", "]"));
+
+        int[][] hintGame = sudokuRetrofitService.getHintForCurrentGame(game);
+        System.out.println("\nHint");
+        System.out.println(Arrays.deepToString(hintGame).replace("], ", "]\n").replace("[[", "[").replace("]]", "]"));
+
+        int[][] solvedGame = sudokuRetrofitService.getSolvedPuzzleForCurrentGame(game);
+        System.out.println("\nSolved Game");
+        System.out.println(Arrays.deepToString(solvedGame).replace("], ", "]\n").replace("[[", "[").replace("]]", "]"));
+
         int finalAnswer = 2;
         int compare = 2;
         assertEquals(finalAnswer, compare);
