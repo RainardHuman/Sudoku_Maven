@@ -12,7 +12,7 @@ public class SudokuRetrofitService {
 
     public SudokuRetrofitService() {
         Retrofit retrofit = new Retrofit.Builder()
-                .addConverterFactory(ScalarsConverterFactory.create())
+                .addConverterFactory(ScalarsConverterFactory.create()) // scalar for primitive and gson for json retrievals.
                 .baseUrl("https://agarithm.com/sudoku/")
                 .build();
 

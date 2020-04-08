@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aba3ddc-974e-4902-9319-a0b44bb7e922" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/RainardHuman/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/RainardHuman/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/RainardHuman/Api/SudokuRetrofitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/RainardHuman/Api/SudokuRetrofitService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
       <workItem from="1586167408299" duration="1905000" />
       <workItem from="1586276798482" duration="1610000" />
       <workItem from="1586349714704" duration="637000" />
-      <workItem from="1586350399590" duration="2984000" />
+      <workItem from="1586350399590" duration="3831000" />
     </task>
     <servers />
   </component>
